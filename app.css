@@ -1,0 +1,30 @@
+button:hover {             /*cuando este arriba el mouse*/
+    cursor: pointer;
+}
+
+h1 {                        /*a todas las etiquetas h1 se aplicara..*/
+    color: blueviolet;
+}
+
+
+.mode_sex {                 /*modificar la class mode_sex*/
+    height: 2000px;
+    position: absolute;
+    display: none;          /*se se va a mostar*/
+    width: 100%;            /*todo ancho de pantalla*/
+    background-color: red;
+    z-index: 1000;
+
+}
+
+
+#btn_si { /* los ids se identifican con # */
+    background-color:lightslategrey ;
+    border-color: whitesmoke;
+    color: azure;
+    font-size: xx-large;
+    padding: 32px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.20);
+}    
